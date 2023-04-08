@@ -16,7 +16,7 @@ const BookDetails = () => {
 
       console.log(bookDetails);
       return (
-            <div className='flex flex-col md:flex-row max-w-screen-lg sm:mx-auto overflow-hidden bg-white border rounded shadow-sm md:justify-center md:items-center'>
+            <div className='flex flex-col md:flex-row max-w-screen-lg sm:mx-auto overflow-hidden bg-white border rounded shadow-sm md:justify-center md:items-center mt-16'>
                   <div className='lg:w-1/2 h-full'>
                         <img className=' w-full object-cover lg:h-full' src={image} alt="book cover" />
 
