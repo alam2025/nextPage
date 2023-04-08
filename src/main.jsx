@@ -8,6 +8,8 @@ import ErrorPage from './ErrorPage'
 import MainPage from './MainPage'
 import About from './About'
 import Books from './Books'
+import BookDetails from './BookDetails'
+import Lodding from './Lodding'
 
 const router = createBrowserRouter([
   {
@@ -21,15 +23,24 @@ const router = createBrowserRouter([
         
       },
       {
-        path :'about',
-        element:<About/>
-      }
-      ,
-      {
         path :'books',
         element: <Books />,
         loader :()=>fetch(`https://api.itbook.store/1.0/new`)
+      },
+      {
+        path:'book/:id',
+        element:<BookDetails />,
+        loader: ({ params }) => fetch(`https://api.itbook.store/1.0/books/${params.id}`),
+      },   
+      {
+        path :'about',
+        element:<About/>
+      } ,
+      {
+        path: 'loader',
+        element:<Lodding />
       }
+    
     ]
 
   }
