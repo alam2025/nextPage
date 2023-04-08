@@ -21,13 +21,13 @@ const About = () => {
                                     <br />
                                     <p className=' text-lg'>Many say exploration is part of our destiny, but it’s actually our duty to future generations.</p>
                               </div>
-                              <div>
+                              <div className=' mt-10'>
                                     <h1 className=' text-2xl font-semibold'>The first mate and his Skipper too will do?</h1>
                                     <p className=' text-lg'>Well, the way they make shows is, they make one show. That show's called a pilot.</p>
                                     <br />
                                     <p className=' text-lg'>Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs.Some don't, become nothing. She starred in one of the ones that became nothing.</p>
                               </div>
-                              <div>
+                              <div className=' mt-10'>
                                     <h1 className=' text-2xl font-semibold'>Is the Space Pope reptilian!?</h1>
                                     <p className=' text-lg'>A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.</p>
                               </div>
@@ -41,13 +41,13 @@ const About = () => {
                                     <br />
                                     <p className=' text-lg'>Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.</p>
                               </div>
-                              <div>
+                              <div className=' mt-10'>
                                     <h1 className=' text-2xl font-semibold'>Galaxies Orion's sword globular star cluster?</h1>
                                     <p className=' text-lg'>A business big enough that it could be listed on the NASDAQ goes belly up. Disappears!</p>
                                     <br />
                                     <p className=' text-lg'>It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.</p>
                               </div>
-                              <div>
+                              <div className=' mt-10'>
                                     <h1 className=' text-2xl font-semibold'>When has justice ever been as simple as a rule book?</h1>
                                     <p className=' text-lg'> This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.</p>
                               </div>
